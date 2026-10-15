@@ -2,8 +2,11 @@ version: 2
 
 sources:
   - name: bronze
-    database: workspace
+    catalog: workspace
     schema: bronze
+
     tables:
       - name: sales_raw
       - name: products_raw
+      - name: customers_raw
+      - name: stores_raw
